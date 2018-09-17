@@ -29,3 +29,6 @@ chapter3
 	执行出栈），最后判断栈是否为空 
 #32 从上打印二叉树[二叉树的层次遍历] / 用一个队列实现，queue.size()为每一层的结点个数
 #33 二叉树的后序遍历  /  根据根结点的值找出左子树，并判断右子树的值是否满足， 在依次递归左右子树  返回父节点时 return(left & right)
+#34 二叉树中和为某一值的路径 /  用ArrayList<Integer>存储当前的路径，ArrayList<ArrayList<Integer>> 存储所有的路径 /  停止条件和返回父节点的操作
+#35 复杂链表的复制/ 分三个步骤 1.在原链表上复制节点 2.复制sibling结点 3.分割原节点与复制节点(注意循环的时候从CloneNode节点开始，防止NullPointException
+)
